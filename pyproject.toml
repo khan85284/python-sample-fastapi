@@ -1,20 +1,20 @@
 [tool.poetry]
-name = "sample-fastapi"
-version = "0.1.0"
+name = "sample-fastapi-unstructured"
+version = "0.1.1"
 description = ""
-authors = ["Narayan Bandodker <narayanband1356@gmail.com>"]
+authors = ["Mohammad Aamir <khan85284@gmail.com>"]
 readme = "README.md"
 
 
 [tool.poetry.scripts]
 # CLI script
-sample-fastapi = "sample_fastapi.cli:main"
+sample-fastapi-unstructured = "sample_fastapi_unstructured.cli:main"
 
 
 [tool.poetry.dependencies]
 # Main dependencies
 
-python = "^3.11"
+python = ">3.10, <3.12"
 pydantic = "^2.7.1"
 pydantic-settings = "^2.2.1"
 platformdirs = "^4.2.1"
