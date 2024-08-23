@@ -4,7 +4,8 @@ import unittest
 class TestSampleApp(unittest.TestCase):
     def test_app_initializes(self):
         from fastapi import FastAPI
-        from sample_fastapi.app.app_factory import init_app
+
+        from sample_fastapi_unstructured.app.app_factory import init_app
 
         # Create application
         app = init_app()
@@ -13,7 +14,8 @@ class TestSampleApp(unittest.TestCase):
 
     def test_app_testclient_connects(self):
         from fastapi.testclient import TestClient
-        from sample_fastapi.app.app_factory import init_app
+
+        from sample_fastapi_unstructured.app.app_factory import init_app
 
         # Create application
         app = init_app()

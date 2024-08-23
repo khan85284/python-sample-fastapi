@@ -5,9 +5,6 @@
 echo Creating "dev" folder...
 mkdir "dev/"
 
-echo installing FastAPI..
-pip install fastapi
-
 echo Installing poetry...
 python3 -m pip install -q poetry
 
