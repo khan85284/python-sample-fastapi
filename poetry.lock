@@ -3040,6 +3040,21 @@ files = [
 windows-terminal = ["colorama (>=0.4.6)"]
 
 [[package]]
+name = "pymysql"
+version = "1.1.1"
+description = "Pure Python MySQL Driver"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "PyMySQL-1.1.1-py3-none-any.whl", hash = "sha256:4de15da4c61dc132f4fb9ab763063e693d521a80fd0e87943b9a453dd4c19d6c"},
+    {file = "pymysql-1.1.1.tar.gz", hash = "sha256:e127611aaf2b417403c60bf4dc570124aeb4a57f5f37b8e95ae399a42f904cd0"},
+]
+
+[package.extras]
+ed25519 = ["PyNaCl (>=1.4.0)"]
+rsa = ["cryptography"]
+
+[[package]]
 name = "pyparsing"
 version = "3.1.2"
 description = "pyparsing module - Classes and methods to define and execute parsing grammars"
@@ -4915,4 +4930,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = ">3.10, <3.12"
-content-hash = "966d20455886c598f734f270b00f3f2aea3a4dec98ddbde93a58a0765fd0621b"
+content-hash = "e4fa057149d2b907b392380f3b9afc516a2a336f24adefcdaa7f897ca57ea28a"
